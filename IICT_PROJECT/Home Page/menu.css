@@ -1,0 +1,176 @@
+*
+{
+   padding: 0%;
+   margin: 0%;
+}
+body
+{
+    background-color: black;
+}
+#logo
+{
+    float: left;
+}
+nav
+{
+    background-color: black;
+    width: 100%;
+    height: 72px;
+}
+nav img
+{
+    margin-left: 60px;
+}
+nav p
+{
+    font-family: cursive;
+    color:  rgb(238, 135, 0);
+    margin-left: 48px;
+    margin-top: -3px;
+}
+#titles
+{
+    float: right;
+    margin-top: -42px;
+    margin-right: 50px;
+}
+nav a
+{
+    color:  rgb(238, 135, 0);
+    font-size: 23px;
+    text-decoration: none;
+    padding-inline: 15px;
+}
+nav a:hover
+{
+    color: white;
+}
+#title a
+{
+    font-size: 20px;
+    text-decoration: none;
+     color: rgb(238, 135, 0);
+    padding: 5px 20px;
+    border: 1px solid;
+    margin-top: 2px;
+}
+a.active
+{
+    background-color: rgb(238, 135, 0);
+    width: 10px;
+    color: white;
+}
+.menu
+{  
+    height: 250px;
+    width: 100%;
+    background-image: url(ress.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.two
+{
+    text-align: center;
+    color: aliceblue;
+    text-decoration: underline rgb(177, 154, 27);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-top: 100px;
+   font-size: 50px;
+}
+.dishes
+{
+    margin-top: 70px;
+    margin-left:15% ;
+    width:1000px;
+    height: 600px;
+    border: 1px solid;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(41, 38, 38);
+}
+.dish1
+{
+    width: 500px;
+    height: 600px;
+    border: 1px solid;
+    padding: 0px;
+    color: red;
+    background-color: black;
+    background-image: url(BURGER.png);
+    background-repeat: no-repeat;
+    background-size: 500px 600px;
+}
+.dish1:hover
+{
+    transition: 1s;
+    transform: scale(1.5);
+}
+.dish2
+{
+  
+  margin-left:5% ;
+  width: 500px;
+  height: 600px;
+  border: 1px solid;
+  padding: 0px;
+  color: red;
+  background-color: black;
+  background-image: url(BBQ\ MENU.png);
+  background-repeat: no-repeat;
+  background-size: 500px 600px;
+}
+.dish2:hover
+{
+    transition: 1s;
+    transform: scale(1.5);
+}
+.dishes2
+{
+    margin-top: 70px;
+    margin-left:15% ;
+    width:1000px;
+    height: 600px;
+    border: 1px solid;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(41, 38, 38);
+}
+.dish3
+{
+    width: 500px;
+    height: 600px;
+    border: 1px solid;
+    padding: 0px;
+    color: red;
+    background-color: black;
+    background-image: url(TANDOOR.png);
+    background-repeat: no-repeat;
+    background-size: 500px 600px;
+}
+.dish3:hover
+{
+    transition: 1s;
+    transform: scale(1.5);
+}
+.dish4
+{
+  
+  margin-left:5% ;
+  width: 500px;
+  height: 600px;
+  border: 1px solid;
+  padding: 0px;
+  color: red;
+  background-color: black;
+  background-image: url(DESSERT.png);
+  background-repeat: no-repeat;
+  background-size: 500px 600px;
+}
+.dish4:hover:hover
+{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+
+

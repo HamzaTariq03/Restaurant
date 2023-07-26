@@ -1,0 +1,791 @@
+*
+{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: black;
+}
+.header
+{
+    float: left;
+    background-image: url(header1.jfif);
+    width: 23%;
+    height: 500px;
+}
+#logo_text
+{
+    margin-top: -45px;
+}
+#logo_text p
+{
+    font-family: cursive;
+    font-size: 20px;
+}
+.header ul
+{
+    padding-top: 25px;
+}
+.header ul li
+{
+    padding: 10px;
+}
+.header ul li a:hover
+{
+    color: white;
+}
+.header ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+     color: rgb(238, 135, 0);
+    padding: 5px 20px;
+    border: 1px solid;
+    margin-top: 2px;
+}
+ul li.active a
+{
+    background-color: rgb(238, 135, 0);
+    width: 10px;
+    color: white;
+}
+.header p
+{
+    padding-top: 45px;
+    color: rgb(238, 135, 0);
+    padding-right: 5px;
+}
+.background_image
+{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(background_image.jpg);
+    background-size: 100% 100%;
+    height: 500px;
+}
+.background_image h1
+{
+    color:  rgb(238, 135, 0);
+    padding-top: 180px;
+    font-size: 40px;
+}
+.background_image h1 span
+{
+    font-family: cursive;
+}
+.background_image p
+{
+    color:  rgb(238, 135, 0);
+    font-size: 18px;
+}
+.background_image button
+{
+    margin-top: 15px;
+    background-color:  rgb(238, 135, 0);
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.background_image button a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.headingpopular
+{
+    background-color: black;
+}
+.headingpopular h1
+{
+    color: white;
+    padding-bottom: 20px;
+}
+.headingpopular span
+{
+    color: rgb(238, 135, 0);
+}
+.popular
+{
+    margin-top: 25px;
+    width: 80%;
+    height: 713px;
+    background-color:white
+}
+.p_burger
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 27px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_burger:hover
+{
+    transform: scale(1.1);
+}
+.tastyburger img
+{
+    padding-top: 20px;
+    transition: 1s;
+}
+.p_burger button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_burger button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.p_pizza
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_pizza:hover
+{
+    transform: scale(1.1);
+}
+.tastypizza img
+{
+    padding-top: 20px;
+}
+.p_pizza button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_pizza button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.p_roll
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_roll:hover
+{
+    transform: scale(1.1);
+}
+.tastyroll img
+{
+    padding-top: 20px;
+}
+.p_roll button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_roll button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.p_icecream
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 27px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_icecream:hover
+{
+    transform: scale(1.1);
+}
+.tastyicecream img
+{
+    padding-top: 20px;
+}
+.p_icecream button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_icecream button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.p_sweets
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_sweets:hover
+{
+    transform: scale(1.1);
+}
+.tastysweets img
+{
+    padding-top: 20px;
+}
+.p_sweets button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_sweets button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.p_cake
+{
+    width: 30%;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.p_cake:hover
+{
+    transform: scale(1.1);
+}
+.tastycake img
+{
+    padding-top: 20px;
+}
+.p_cake button
+{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(238, 135, 0);
+    color: black;
+}
+.p_cake button:hover
+{
+    background-color: rgb(238, 135, 0);
+    transition: 0.9s;
+}
+.works_heading h1
+{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    color: white;
+}
+.works_heading h1 span
+{
+    color: rgb(238, 135, 0);
+}
+.how_it_works
+{
+    margin-top: 25px;
+    width: 70%;
+    height: 160px;
+}
+.favorite_food
+{
+    float: left;
+    width: 20%;
+    margin-left: 50px;
+}
+.favorite_food img
+{
+    border-radius: 50%;
+    border: 4px solid  rgb(238, 135, 0);
+    transition: 1s;
+}
+.favorite_food img:hover
+{
+    transform: scale(1.1);
+}
+.favorite_food p
+{
+    color: white;
+}
+.favorite_food p span
+{
+    color:  rgb(238, 135, 0);
+}
+.food_delivery
+{
+    float: left;
+    width: 20%;
+    margin-left: 25px;
+}
+.food_delivery img
+{
+    border-radius: 50%;
+    border: 4px solid  rgb(238, 135, 0);
+    transition: 1s;
+}
+.food_delivery img:hover
+{
+    transform: scale(1.1);
+}
+.food_delivery p
+{
+    color: white;
+}
+.food_delivery p span
+{
+    color:  rgb(238, 135, 0);
+}
+.payment_method
+{
+    float: left;
+    width: 20%;
+    margin-left: 25px;
+}
+.payment_method img
+{
+    border-radius: 50%;
+    border: 4px solid  rgb(238, 135, 0);
+    transition: 1s;
+}
+.payment_method img:hover
+{
+    transform: scale(1.1);
+}
+.payment_method p
+{
+    color: white;
+}
+.payment_method p span
+{
+    color:  rgb(238, 135, 0);
+}
+.eating_food
+{
+    float: left;
+    width: 20%;
+    margin-left: 25px;
+}
+.eating_food img
+{
+    border-radius: 50%;
+    border: 4px solid  rgb(238, 135, 0);
+    transition: 1s;
+}
+.eating_food img:hover
+{
+    transform: scale(1.1);
+}
+.eating_food p
+{
+    color: white;
+}
+.eating_food p span
+{
+    color:  rgb(238, 135, 0);
+}
+.review_heading h1
+{
+    margin-bottom: 50px;
+    margin-top: 150px;
+    color: white;
+}
+.review_heading h1 span
+{
+    color:  rgb(238, 135, 0);
+}
+.review
+{
+    width: 80%;
+    height: 350px;
+    margin-top: 50px;
+}
+.first_review
+{
+    float: left;
+    width: 30%;
+    height: 320px;
+    background-color: rgb(19, 19, 19);
+    border: 3px solid white;
+    margin-left: 19px;
+}
+.first_review img
+{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -25px;
+    transition: 1s;
+}
+.first_review img:hover
+{
+    transform: scale(1.1);
+}
+.first_review h4
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.first_review p
+{
+    color: white;
+    width: 84%;
+    margin-top: 5px;
+}
+.first_rating img
+{
+    margin-top: 5px;
+    border: none;
+    border-radius: none;
+}
+.second_review
+{
+    float: left;
+    width: 30%;
+    height: 320px;
+    background-color: rgb(19, 19, 19);
+    border: 3px solid white;
+    margin-left: 19px;
+}
+.second_review img
+{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -25px;
+    transition: 1s;
+}
+.second_review img:hover
+{
+    transform: scale(1.1);
+}
+.second_review h4
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.second_review p
+{
+    margin-top: 5px;
+    color: white;
+    width: 84%;
+}
+.second_rating img
+{
+    margin-top: 5px;
+    border: none;
+    border-radius: none;
+}
+.third_review
+{
+    float: left;
+    width: 30%;
+    height: 320px;
+    background-color: rgb(19, 19, 19);
+    border: 3px solid white;
+    margin-left: 19px;
+}
+.third_review img
+{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: -25px;
+    transition: 1s;
+}
+.third_review img:hover
+{
+    transform: scale(1.1);
+}
+.third_review h4
+{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.third_review p
+{
+    margin-top: 5px;
+    color: white;
+    width: 84%;
+}
+.third_rating img
+{
+    margin-top: 5px;
+    border: none;
+    border-radius: none;
+}
+.order_heading
+{
+    background-color: black;
+}
+.order_heading h1
+{
+    margin-top: 140px;
+    padding-bottom: 20px;
+    color: white;
+}
+.order_heading h1 span
+{
+    color:  rgb(238, 135, 0);
+}
+.order
+{
+    width: 65%;
+    height: 300px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(241, 241, 241);
+}
+.order_image
+{
+    float: left;
+    width: 33%;
+    margin-top: 9px;
+}
+.order_image img
+{
+    margin-top: 8.5px;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: 1s;
+}
+.order_image img:hover
+{
+    transform: scale(1.05);
+}
+.order_form
+{
+    margin-top: 23px;
+    float: left;
+    width: 57%;
+    margin-left: 70px;
+}
+input#name
+{
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 18px;
+}
+input#email
+{
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 7px;
+}
+input#number
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 18px;
+}
+input#food
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 7px;
+}
+input#quantity
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+    float: left;
+    margin-left: 18px;
+}
+.order_form textarea
+{
+    margin-top: 10px;
+    float: left;
+    margin-left: 18.5px;
+}
+input#button
+{
+    cursor: pointer;
+    margin-top: 10px;
+    float: left;
+    margin-left: 40%;
+    width: 70px;
+    height: 25px;
+    background-color: rgb(238, 135, 0);
+    border: none;
+    color: white;
+    font-size: 12px;
+}
+.footer
+{
+    background-color: rgb(228, 228, 228);
+    height: 250px;
+    background-color: white;
+    background-size: 100% 100%;
+}
+.about_us
+{
+    width: 23%;
+    float: left;
+    margin-top: 32px;
+    margin-left: 40px;
+}
+.about_us h3
+{
+    margin-left: 15px;
+    font-size: 25px;
+}
+.about_us p
+{
+    margin-left: 15px;
+    width: 80%;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.quick_links
+{
+    width: 23%;
+    float: left;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+.quick_links h3
+{
+    font-size: 25px;
+}
+.quick_links ul
+{
+    padding-top: 5px;
+    list-style-type: none;
+}
+.quick_links ul li
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.quick_links ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.quick_links ul li a:hover
+{
+    color:  rgb(238, 135, 0);
+}
+.info
+{
+    width: 23%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.info h3
+{
+    font-size: 25px;
+}
+.address img
+{
+    padding-top: 17px;
+    float: left;
+    margin-right: 10px;
+}
+.address p
+{
+    padding-top: 7px;
+    font-size: 15px;
+}
+.email
+{
+    margin-top: 15px;
+    height: 40px;
+}
+.email img
+{
+    float: left;
+    margin-right: 15px;
+}
+.email p
+{
+    padding-top: 7px;
+}
+.phone p
+{
+    padding-top: 13px;
+}
+.phone img
+{
+    float: left;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.follow
+{
+    margin-top: 30px;
+    width: 23%;
+    float: left;
+    margin-left: 18px;
+}
+.follow h3
+{
+    font-size: 25px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+.fb
+{
+    margin-left: 70px;
+    float: left;
+}
+.insta
+{
+    float: left;
+}
+.twitter
+{
+    float: left;
+}
+.linkedin
+{
+    float: left;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+</head>
+<link rel="stylesheet" type="text/css" href="home_page.css">
+<link rel="stylesheet" type="text/css" href="contact.css">
+
+<body>
+	<nav>
+        <div id="logo"></div>
+        <img src="logo.png" width="85px" height="55px">
+        <p>
+            Crispy Delight
+        </p>
+
+		<div id="titles">
+            <a href="HOME_PAGE.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="menu.html">Menu</a>
+            <a class="active" href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+	<div class="background_image">
+		<center>
+		<h1>Contact Us</h1>
+	</center>
+	</div>
+
+	<h2 style="color: darkred;">We would love to here from you!</h3>
+		<div id="i1">
+
+            <div class="para">			<p>
+			<h4>Right now there is no us, i am running the show alone.<br>So every
+				feedback,any suggestion you have and any new<br>
+				idea you like to share-please do not hesitate,write to me<br>
+				immediately
+				</p>
+
+				<p>
+					I am a social animal .Animal because I have some degree<br> of
+					randomness in my ba\ehavior.Social because I love to hear<br>
+					and share with people.
+			</h4>
+			</p>
+		</div>
+
+		<center>
+		<div id="form">
+			<input id="i3" type="email" name="email" placeholder="Enter A Valid Email Address" style="background-color: rgb(202, 199, 184);">
+			<input id="i4" type="text" name="name" placeholder="ENTER YOUR NAME"  style="background-color: rgb(202, 199, 184);"></input><br>
+			<input id="i5" type="text" name="address" placeholder="ENTRE YOUR ADDRESS"  style="background-color: rgb(202, 199, 184);"></input>
+			<input id="i6" type="number" name="number" placeholder="ENTER PHONE NUMBER" style="background-color: rgb(202, 199, 184);"></input><br>
+			<textarea id="i7" name="w3review" rows="20" cols="95" placeholder="share your feedback...." style="background-color: rgb(202, 199, 184);"></textarea><br>
+
+			<button onclick="validateform()" type="button">Submit</button>
+		</div>
+	</center>
+
+		<script>
+			function validateform() {
+				var email = document.getElementById('i3').value;
+				var name = document.getElementById('i4').value;
+				var address = document.getElementById('i5').value;
+				var message = document.getElementById('i7').value;
+
+
+
+				if (email == "") {
+					alert("Please Enter Your Email");
+				}
+				else if (name == "") {
+					alert("Please Enter Your Name");
+				}
+				else if (address == "") {
+					alert("Please Enter Your Valid Address");
+				}
+				else if (message == "") {
+					alert("Please Enter Your Message");
+				}
+				else {
+					alert("THANK YOU FOR YOUR FEEDBACK");
+
+			}
+
+		}
+		</script>
+</body>
+
+</html>

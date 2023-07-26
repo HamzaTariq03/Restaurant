@@ -1,0 +1,147 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+body
+{
+    background-image: url(restaurent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#logo
+{
+    float: left;
+}
+nav
+{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+}
+nav img
+{
+    margin-left: 60px;
+}
+nav p
+{
+    font-family: cursive;
+    color:  rgb(238, 135, 0);
+    margin-left: 52px;
+    margin-top: -3px;
+}
+#titles
+{
+    float: right;
+    margin-top: -56px;
+    margin-right: 50px;
+}
+nav a
+{
+    color:  rgb(238, 135, 0);
+    font-size: 28px;
+    text-decoration: none;
+    padding-inline: 15px;
+}
+nav a:hover
+{
+    color: white;
+}
+a.active
+{
+    background-color: rgb(238, 135, 0);
+    width: 10px;
+    color: white;
+}
+.sub-heading
+{
+color: rgb(0, 0, 0);
+text-align: center;
+text-decoration: underline gold;
+font-size: 40px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-gold-1 {
+    background: #000000;
+    opacity: .7;
+  }
+.bg-gold-1 {
+  width: 100%;
+  height: 30%;
+  text-align: right;
+}
+.content .bg-gold-1 p
+{
+    text-align: center;
+}
+.heading
+{
+    text-align: center;
+    color: #eee;
+    text-decoration: underline rgb(255, 0, 0);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{ 
+    margin-top: 25px;
+    width: 100%;
+}
+
+.about .row .content{
+    flex:1 1 45rem;
+}
+
+.about .row .content h1{
+    color:gold;
+    font-size: 40px;
+    padding:.5rem 0;
+}
+
+.about .row .content p{
+    color:rgb(255, 255, 255);
+    text-decoration: underline rgb(191, 163, 5);
+    font-size: 1.5rem;
+    padding:.5rem 0;
+    line-height: 2;
+}
+
+.about .row .content .icons-container{
+    display: flex;
+    gap:1rem;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    margin-top: .5rem;
+}
+
+.about .row .content .icons-container .icons{
+    background:#eee;
+    border-radius: .5rem;
+    border:.1rem solid rgba(201, 182, 15, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    flex:1 1 17rem;
+    padding:1.5rem 1rem;
+}
+
+.about .row .content .icons-container .icons i{
+    font-size: 2.5rem;
+    color:red;
+}
+
+.about .row .content .icons-container .icons span{
+    font-size: 1.5rem;
+}
